@@ -1,5 +1,6 @@
 ## Welcome to Jeffrey First Landing page
-##Bienvenido a la primera Landing Page de Jeffrey
+
+Bienvenido a la primera Landing Page de Jeffrey
 
 You can use the [editor on GitHub](https://github.com/Mixjeff/Jeffrey.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
