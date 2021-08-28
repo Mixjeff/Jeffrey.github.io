@@ -1,0 +1,88 @@
+/*** Clase para centrar ***/
+.center{
+    text-align: center;
+}
+/*** Clase para el header ***/
+.super-cabecera{
+    position:relative;
+}
+.super-cabecera nav{
+    position:relative;
+    width:80%;
+    max-width:1000px;
+    margin:0 auto;
+}
+.super-cabecera nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.super-cabecera nav ul li{
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    width:12%;
+}
+/***Links para sitios turisticos***/
+.links nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.links nav ul li a{
+    text-decoration:none;    
+    color:rgb(146, 64, 64);
+}
+/*** Al enlace "a" le hemos quitado el subrayado que aparece por defecto en los navegadores ***/
+.super-cabecera nav ul li a{
+    text-decoration:none;
+    color:#333;
+}
+.super-cabecera nav ul li i{
+    display:block;
+    /*vertical-align:top;*/
+    width:100%;
+    text-align:center;
+}
+/***  la clase ".borde" ***/
+/*** Le hemos dicho que ocupe el 100% del ancho de su contenedor ***/
+/*** Le hemos dado una altura y un fondo para que se vea ***/
+.super-cabecera nav ul li span.borde{
+    display:block;
+    height:4px;
+    background-color:#2455f4;    
+}
+
+/*** en la clase .texto ***/
+/*** También lo hemos establecido con ancho completo ***/
+/*** Para poder centrar el texto ***/
+.super-cabecera nav ul li span.texto{
+    display:block;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    background-color:#CCC;
+}
+
+/*** Funciona como selector el "li:hover" ***/
+.super-cabecera nav ul li:hover{
+    background-color:#F1F1F1;
+}
+.super-cabecera nav ul li:hover span.borde{
+    background-color:#333333;
+}
+.super-cabecera nav ul li:hover a i{
+    color:#222;
+}
+.super-cabecera nav ul li:hover a .texto{
+    color:#000;
+    background-color:#BBB;
+}
+
+/***  hacer que el cambio dure 400 milisegundos, en lugar de hacerse en un salto ***/
+.super-cabecera li {
+transition:400ms;
+}
+ body{
+     background-color: lightblue;    
+ }
